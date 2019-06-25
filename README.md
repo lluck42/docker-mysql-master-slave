@@ -14,7 +14,7 @@ MASTER_USER='root',
 MASTER_PASSWORD='a.123456',  
 MASTER_LOG_POS=154;  
 
-第三部，启动 slave，查看 slave 状态  
+第三步，启动 slave，查看 slave 状态  
 start slave;  
 show slave status;  
 
