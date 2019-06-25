@@ -20,7 +20,7 @@ show slave status;
 
 调试命令  
 debug command  
-slave command;  
+slave command; 
 stop slave;  
 reset slave;  
 
