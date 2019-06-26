@@ -27,6 +27,9 @@ reset slave;
 note:  
 连接命令只有第一次启动需要输入  
 mysql 5.7 版本 8.0版本都可用  
-relay_log 有文章说需要这个参数我就加上了  
+relay_log 有文章说需要这个参数我就加上了
+mysql-origin 作为多级别主从，log_slave_updates=1 配置已经加上
+数据流向 origin -> master -> slave,  master->slave  
+
 log:  
 master 关闭重启后，slave 连接一直等待中，4次自动连接后，再次连接上 master  
